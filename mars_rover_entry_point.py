@@ -56,3 +56,5 @@ if __name__ == '__main__':
             instructions = parse_instructions(input_line)
             rover.send_move_instructions(instructions)
             print(rover.get_position_and_direction())
+        else:
+            print("invalid input line")
